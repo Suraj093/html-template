@@ -124,6 +124,46 @@ a:hover {
   font-weight: 700;
 }
 
+.about-section {
+  padding: 6rem 0;
+}
+
+.about-content span {
+  color: #ffc107;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.about-content h5 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.about-img img {
+  width: 80%;
+}
+
+.call-section {
+  background: #161e17;
+  padding: 5.5rem 0;
+}
+
+.call-text h5 {
+  font-size: 2rem;
+  color: #ffc107;
+  font-weight: 600;
+}
+
+.call-number .call-button {
+  background: #ffc107;
+  width: 70%;
+  margin: 0 auto;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-radius: 30px;
+}
+
 .footer-section {
   background: #161e17;
   padding: 5.5rem 0;
