@@ -205,6 +205,19 @@ a:hover {
   font-weight: 600;
 }
 
+.service-page {
+  padding: 6rem 0;
+}
+
+.service-page-title h3 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.service-page-title p {
+  font-size: 1.5rem;
+}
+
 .footer-section {
   background: #161e17;
   padding: 5.5rem 0;
