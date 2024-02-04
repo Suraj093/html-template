@@ -194,19 +194,17 @@ a:hover {
   font-size: 1.2rem;
 }
 
-.member-img img {
-  width: 300px;
-  height: 250px;
-}
-
-.member-details h4 {
+.team .card-title {
+  font-size: 1.7rem;
   font-weight: 600;
 }
 
-.member-details .member-position {
-  font-weight: 600;
+.team .member-position {
   color: #ffc107;
+  font-size: 1.3rem;
+  font-weight: 600;
 }
+
 .footer-section {
   background: #161e17;
   padding: 5.5rem 0;
