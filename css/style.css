@@ -143,6 +143,15 @@ a:hover {
   width: 80%;
 }
 
+.happy-card {
+  background: #ffc107;
+  border-radius: 10px;
+}
+
+.happy-card h3 {
+  font-size: 3.5rem;
+}
+
 .call-section {
   background: #161e17;
   padding: 5.5rem 0;
