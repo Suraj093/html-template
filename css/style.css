@@ -218,6 +218,27 @@ a:hover {
   font-size: 1.5rem;
 }
 
+.question-items .accordion-item {
+  margin-bottom: 1.5rem;
+  border: 2px solid #ffc107;
+}
+
+.question-items .accordion-button {
+  background: #ffc107;
+  font-size: 1.3rem;
+  outline: 0;
+  font-weight: 700;
+}
+
+.question-items .accordion-button:not(.collapsed) {
+  border-bottom: 2px solid #ffc107;
+  box-shadow: none;
+}
+
+.question-items .accordion-body {
+  font-size: 1.1rem;
+}
+
 .footer-section {
   background: #161e17;
   padding: 5.5rem 0;
