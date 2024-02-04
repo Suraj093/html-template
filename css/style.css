@@ -92,6 +92,38 @@ a:hover {
   color: #ffc107;
 }
 
+.widget-title span {
+  font-size: 1.5rem;
+}
+
+.widget-title h3 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.widget-icon {
+  min-width: 100px;
+  min-height: 100px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffc107;
+  border-radius: 50%;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+.widget-icon i {
+  font-size: 3rem;
+}
+
+.widget-text h5 {
+  font-weight: 700;
+}
+
 .footer-section {
   background: #161e17;
   padding: 5.5rem 0;
@@ -132,4 +164,8 @@ a:hover {
 
 .footer-bottom ul li a {
   color: #fff;
+}
+
+.footer-bottom ul li a:hover {
+  color: #ffcd39;
 }
