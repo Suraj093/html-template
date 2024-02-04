@@ -173,6 +173,40 @@ a:hover {
   border-radius: 30px;
 }
 
+.team-section {
+  padding: 6rem 0;
+}
+
+.team-text span {
+  color: #ffc107;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.team-text h5 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+.team-text p {
+  font-size: 1.2rem;
+}
+
+.member-img img {
+  width: 300px;
+  height: 250px;
+}
+
+.member-details h4 {
+  font-weight: 600;
+}
+
+.member-details .member-position {
+  font-weight: 600;
+  color: #ffc107;
+}
 .footer-section {
   background: #161e17;
   padding: 5.5rem 0;
