@@ -249,6 +249,11 @@ a:hover {
   overflow: hidden;
 }
 
+.subscribe-text h5 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
 .footer-section {
   background: #161e17;
   padding: 5.5rem 0;
