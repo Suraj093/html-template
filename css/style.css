@@ -254,6 +254,29 @@ a:hover {
   font-weight: 600;
 }
 
+.contact-box .content-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(180deg, #ffc107 0%, #ffc107 100%);
+  border-radius: 15px;
+  margin-right: 20px;
+  padding: 18px;
+}
+
+.contact-box .content-icon i {
+  font-size: 4rem;
+  color: #4d4a4a;
+}
+
+.contact-content h3 {
+  font-size: 2.8rem;
+  color: #ffc107;
+  font-weight: 700;
+}
+
 .footer-section {
   background: #161e17;
   padding-top: 5.5rem;
