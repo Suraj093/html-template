@@ -277,6 +277,11 @@ a:hover {
   font-weight: 700;
 }
 
+.form-wrapper p {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
 .footer-section {
   background: #161e17;
   padding-top: 5.5rem;
