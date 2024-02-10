@@ -3,6 +3,7 @@
 body {
   font-family: "Poppins", sans-serif;
   font-size: 1.1rem;
+  cursor: pointer;
 }
 
 img {
@@ -141,6 +142,49 @@ a:hover {
 .about-content h5 {
   font-size: 3rem;
   font-weight: 900;
+}
+
+.index-about-img {
+  position: relative;
+}
+
+.img-caption {
+  position: absolute;
+  bottom: 31px;
+  padding: 14px;
+  background: #ffc107;
+  left: 15px;
+  -webkit-box-shadow: 0 0 20px 2.5px rgba(18, 53, 87, 0.12);
+  box-shadow: 0 0 20px 2.5px rgba(18, 53, 87, 0.12);
+  border-radius: 5px;
+}
+
+.img-card_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.img-card_icon i {
+  font-size: 4rem;
+  margin: 7px 10px 0 0;
+}
+
+.img-count .content-count {
+  font-size: 2.5rem;
+  width: 100%;
+  display: inline-block;
+  font-weight: 700;
+}
+
+.img-count .content-count-text {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.image-caption .ico-size {
+  color: #222;
 }
 
 .about-img img {
