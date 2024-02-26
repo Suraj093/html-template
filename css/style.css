@@ -483,3 +483,58 @@ a:hover {
   height: auto;
   border-radius: 5px;
 }
+
+.latest-blogs .latest-blog-title {
+  background: rgb(0, 0, 0);
+  padding: 0.6rem 0.5rem;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.latest-blogs .latest-blog-title h4 {
+  color: #fff;
+  margin-bottom: 0px;
+}
+
+.latest-blog-box {
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  background: #f6f8ff;
+}
+
+.latest-blog-box:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8));
+}
+
+figure {
+  display: block;
+  margin: 0;
+  width: 100%;
+}
+.latest-blog-img img {
+  width: 100%;
+  max-height: 200px;
+  border-radius: 20px;
+  transition: all 0.5s ease-in-out;
+}
+
+.latest-blog-content {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+  padding: 1rem;
+}
+
+.latest-blog-content h5 {
+  color: #fff;
+  font-weight: 600;
+  width: 100%;
+}
